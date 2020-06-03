@@ -9,7 +9,7 @@ class Users extends Component {
 				<h3>Users:</h3>
 				<p>
 					Use the following API to make a list of user names:<br />
-					<code>https://my-json-server.typicode.com/evyros/react-exercises/users</code>
+					<code>https://netcraft2.s3-eu-west-1.amazonaws.com/users.json</code>
 				</p>
 				<ul>
 
