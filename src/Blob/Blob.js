@@ -5,9 +5,9 @@ import './Blob.scss';
 class Blob extends Component {
 	render() {
 		return (
-			<div className="Blob">
+			<div className="Blob">			
 				Add a `showLogo` prop into the `Blob` component that determines whether or not to display the logo.<br />
-				<img src={logo} className="Blob__logo" alt="logo" />
+				{this.props.showLogo && <img src={logo} className="Blob__logo" alt="logo" />}			
 			</div>
 		)
 	}

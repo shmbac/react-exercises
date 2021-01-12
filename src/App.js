@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Blob from './Blob/Blob';
-import Hide from './Hide/Hide';
+import Hide from './Hide/Hide.js';
 import List from './List/List';
 import Counter from './Counter/Counter';
 import RandomNumber from './RandomNumber/RandomNumber';
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
         <div className="exercise" data-number="1" data-title="<Blob />">
-            <Blob />
+            <Blob showLogo={true} />
         </div>
         <div className="exercise" data-number="2" data-title="<Hide />">
             <Hide />
